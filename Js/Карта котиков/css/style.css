@@ -1,0 +1,47 @@
+.show-block{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+    font-family: 'Roboto' sans-serif;
+    color: black;
+}
+
+*{
+    outline:none;
+}
+
+#block{
+    width: 300px;
+    padding:20px;
+    margin: 50px auto;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #c0c0c0;
+    text-align: center;   
+}
+
+.cat{
+    min-width:80%;
+    display:block;
+    margin: 10px auto;
+}
+
+.description > img {
+    width: 30%;
+    margin: 20px auto;
+}
+.hide{
+    height: 0;
+    overflow: hidden;
+}
+
+#show-description{
+    width: 32px;
+    height: 32px;
+    background-image: url('https://cdn3.iconfinder.com/data/icons/iconset-1-1/24/icon_set_outlinder-02-128.png');
+    background-size: 32px 32px;
+    background-color :rgb(255, 255, 255); 
+    border: none;
+    cursor: pointer;
+}

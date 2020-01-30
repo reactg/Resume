@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+}
+
+
+#menu{
+    background-image:url(file:///E:/JS/images/christmas-colour.png);
+    background-repeat: repeat;
+    width: 100%;
+    height: 55vh;
+}
+
+#news{
+    position:absolute;
+    width: 20%;
+    height: 50%;
+    
+    left:20%;
+}
+
+#myslide {
+    width: 100vh;
+    height: 48vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#one,
+#two {
+    width: 100vh;
+    height: 48vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    transition: all ease 000.1;
+}
+body {
+    font-family: sans-serif;
+}
+
+.wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url(file:///E:/JS/images/christmas-dark.png);
+    background-repeat:repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    width: 300px;
+    height: 180px;
+
+    position: relative;
+    perspective: 1000px;
+}
+
+.front,
+.back {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 5s;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+/* .front {
+    background-color: orangered;
+} */
+
+.back {
+    background-color: blue;
+    transform: rotateY(180deg);
+}
+
+.card:hover .front {
+    transform: rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: rotateY(360deg);
+}
+
+#imgcr{
+    position: relative;
+    width: 100%;
+}
+#test{
+    position: absolute;
+    top: 100px;
+    
+}
+#zhmi{
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* выезжающая панель */
+#menuSlide {
+    width: 506px;
+    height: 55vh;
+    transition: all ease 1s;
+    background: cyan;
+    position: absolute;
+    /* left: -496px; */
+    top: 30vh;
+    
+}

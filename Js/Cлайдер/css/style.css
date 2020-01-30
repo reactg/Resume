@@ -1,0 +1,38 @@
+.infinity-slider-wrap{
+    border:1px solid black;
+    width: 350px;
+    height: 600px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.infinity-slider{
+    width: 350px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.infinity-slider img{
+    width: 350px;
+    height: 600px;
+    position: absolute;
+    opacity: 1;
+    transition: all ease 1s;
+}
+
+.infinity-slider .opacity0{
+    opacity: 0;
+}
+
+.btn-infinity-up, .btn-infinity-down{
+    width: 36px;
+    height: 36px;
+    background: url('E:site/img/up.png');
+    background-size: contain;
+}
+.btn-infinity-down{
+    
+    background: url('E:site/img/down.png');
+    background-size: contain;
+}

@@ -1,0 +1,59 @@
+body {
+    background-color:rgb(97, 0, 136);
+}
+
+#board{
+    position: relative;
+    width: 1024px;
+    height: 863px;
+    margin: auto;
+    background: url('') no-repeat;
+}
+
+#messageArea{
+position: absolute;
+top:0px;
+left: 0px;
+color: rgb(0, 0, 0)
+}
+
+table{
+    position: absolute;
+    left: 173px;
+    right: 0px;
+    border-spacing: 0em;
+    
+}
+
+td{
+    
+    width: 94px;
+    height: 94px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: rgb(0, 0, 0);
+}
+
+form{
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+    padding:15px;
+    background-color: rgb(241, 225, 0)
+}
+form input{
+    background-color: rgb(0, 148, 25);
+    border-color:black;
+    font-size: 1em;
+}
+
+.hit{
+    background: url('https://cdn2.iconfinder.com/data/icons/army-glyph-1/512/_military_ship_ship_transport_military-128.png') no-repeat;
+    background-size: 95% auto;
+    
+}
+
+.miss{
+    background: url('https://cdn0.iconfinder.com/data/icons/interface-icons/110/Block-128.png') no-repeat;
+    background-size: 95% auto;
+}

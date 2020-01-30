@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+.header-bg{
+    margin: 30px;
+    position: relative;
+}
+
+.header-bg h2{
+    display: inline-block;
+}
+
+.square-bg{
+    min-height: 40px;
+    width: 100%;
+    position: absolute;
+    background: orange;
+    left: 0; 
+    top: 0;
+    z-index: -1;
+}

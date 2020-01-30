@@ -1,0 +1,35 @@
+.container{
+    width: 600px;
+    height: 400px;
+    background: rgb(194, 136, 136);
+    margin: 200px auto;
+    overflow: hidden;
+    border:5px solid black;
+    position: relative;
+}
+
+
+
+
+
+.block::after{
+    content:'';
+    display:block;
+    clear:both; 
+}
+
+.block-left{
+    width: 300px;
+    position: absolute;
+    background: rgb(115, 187, 124);
+    top: 0;
+    left:0;
+}
+
+.block-right{
+    width: 300px;
+    position: absolute;
+    background: rgb(133, 74, 74);
+    bottom: 0;
+    right: 0;
+}
