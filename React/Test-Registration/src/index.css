@@ -1,0 +1,24 @@
+body {
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  
+
+  background: url(./images/naushniki_minimalizm_pastelnyj_122007_1600x1200.jpg) ;
+  
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  top:10%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
