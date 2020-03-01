@@ -23,3 +23,8 @@
     font-family: Roboto;
     color:black;
 }
+
+.span{
+    position: absolute;
+    float:right;
+}

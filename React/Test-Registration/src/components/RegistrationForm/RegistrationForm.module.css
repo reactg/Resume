@@ -2,7 +2,7 @@
     border-radius: 20px;
     width: 640px;
     height: 490px;
-    margin-top: 15%;
+    margin-top: 5%;
     margin-bottom: 10em;
     position: relative;
     box-sizing: border-box;
@@ -13,7 +13,7 @@
     background-image: url(./../../images/naushniki_minimalizm_pastelnyj_122007_1600x1200.jpg) ; 
     background-size: cover;
     opacity:0.95;
-    left: -8px;
+    left: 101.5px;
     z-index: 2;
 }
 
